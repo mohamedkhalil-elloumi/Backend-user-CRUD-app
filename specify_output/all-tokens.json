@@ -1,23 +1,522 @@
 [
     {
-        "id": "0ca06930-cca7-4771-a6b9-ae9af5998921",
-        "createdAt": "2022-05-25T17:34:26.712Z",
-        "updatedAt": "2022-05-25T17:34:26.712Z",
-        "name": "roboto italic",
+        "id": "41081fbe-2147-4c84-a953-c66307d0c8cd",
+        "createdAt": "2021-07-27T11:06:04.983Z",
+        "updatedAt": "2022-05-31T11:01:05.087Z",
+        "name": "activity",
         "value": {
-            "a": 1,
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ec4ca049-d93b-432d-b224-ef4e8aaf17f5",
+            "format": "svg"
         },
         "meta": {
-            "source": "frames",
-            "sourceFile": "https://www.figma.com/file/OIiY90zR1xro6vXSUdTegG",
-            "originFrameName": "Frame 1"
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "activity",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "12:48-svg-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "2e3c6a3d-79df-4853-a4a7-3aac0f504d8f",
+        "createdAt": "2021-07-27T11:06:04.983Z",
+        "updatedAt": "2022-05-31T11:01:05.084Z",
+        "name": "airplay",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b299c376-9396-4b65-b928-17383bc310c5",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "airplay",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "12:45-svg-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "f54beedf-a203-4eda-bba3-b06fd3cdad13",
+        "createdAt": "2021-07-27T11:06:04.983Z",
+        "updatedAt": "2022-05-31T11:01:05.086Z",
+        "name": "alert-circle",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b1054144-6442-4640-93fc-07f4664f3f7e",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "alert-circle",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "12:41-svg-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "19bc8da7-d262-40ba-afbb-d8c26be1d58a",
+        "createdAt": "2021-10-28T15:37:30.797Z",
+        "updatedAt": "2022-05-31T11:01:05.049Z",
+        "name": "alert-circle 1/frite",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f3f34b2c-360c-49a4-90f7-f74b66cc4807",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "alert-circle 1/frite",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "Frame 4"
+        },
+        "type": "vector",
+        "originId": "37:2-svg-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "ccb9be42-6b7a-4f51-9d14-f302cd58b775",
+        "createdAt": "2021-10-28T15:37:30.802Z",
+        "updatedAt": "2022-05-31T11:01:05.049Z",
+        "name": "alert-circle 1/frite",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/33010562-62a8-4b3c-880a-b147dff6de3d",
+            "format": "pdf"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "alert-circle 1/frite",
+            "format": "pdf",
+            "dimension": 1,
+            "parentFrame": "Frame 4"
+        },
+        "type": "vector",
+        "originId": "37:2-pdf-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "4ff4c971-a044-4ca0-bf1f-d46f2d5afebf",
+        "createdAt": "2021-07-27T11:06:04.975Z",
+        "updatedAt": "2022-05-31T11:01:05.075Z",
+        "name": "alert-octagon",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/fcccf6ee-6077-4225-9381-7ad9316d610a",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "alert-octagon",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "12:37-svg-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "42154636-c4d3-44a8-82bd-1144fef7a6d7",
+        "createdAt": "2021-11-10T11:01:15.298Z",
+        "updatedAt": "2022-05-31T11:01:05.127Z",
+        "name": "alert-triangle",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1b854749-4d0a-4469-8b19-6dd74d87e720",
+            "format": "pdf"
+        },
+        "meta": {
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "alert-triangle",
+            "format": "pdf",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "12:33-pdf-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "92580091-bdc6-4998-a5b4-08e6e37cf69d",
+        "createdAt": "2021-07-27T11:06:04.983Z",
+        "updatedAt": "2022-05-31T11:01:05.086Z",
+        "name": "alert-triangle",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9a8bc7e3-5bc7-40a0-8b40-38bb1a5d2c97",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "alert-triangle",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "12:33-svg-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "ce16768e-875e-4e93-a562-335c65152769",
+        "createdAt": "2021-11-10T11:01:15.291Z",
+        "updatedAt": "2022-05-31T11:01:05.139Z",
+        "name": "align-center",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f67c2020-2b82-4335-b1cf-d80ad7635193",
+            "format": "pdf"
+        },
+        "meta": {
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "align-center",
+            "format": "pdf",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "12:28-pdf-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "bf511386-cb72-4292-9504-1c0228207033",
+        "createdAt": "2021-07-27T11:06:04.963Z",
+        "updatedAt": "2022-05-31T11:01:05.076Z",
+        "name": "align-center",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b747c424-5669-46d5-875a-e41b65305708",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "align-center",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "12:28-svg-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "d43c4a69-4fc7-49c4-9fd8-77507933d8bb",
+        "createdAt": "2021-11-10T11:00:59.219Z",
+        "updatedAt": "2021-11-10T11:00:59.219Z",
+        "name": "Border",
+        "value": {
+            "a": 1,
+            "b": 204,
+            "g": 43,
+            "r": 95
+        },
+        "meta": {
+            "source": "localStyles"
         },
         "type": "color",
-        "originId": "166:2",
-        "sourceId": "00953180-1ded-4b31-9707-6230226fe3e9",
-        "repositoryId": "ea5511be-6742-4622-838c-1811ae98e3be"
+        "originId": "102:5",
+        "sourceId": "9fa35f5e-d003-401e-a76d-46f6ac41a42e",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "1cde4f9a-3f2f-4af9-9ccd-5bf9c3a6b4b5",
+        "createdAt": "2021-11-18T11:02:03.093Z",
+        "updatedAt": "2022-05-31T11:01:05.037Z",
+        "name": "Frame 4",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0f78be9c-7ad9-4681-a4ad-4bd11d37d03d",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "Frame 4",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "icons"
+        },
+        "type": "vector",
+        "originId": "3555:2-svg-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "cbd96c6a-98f4-4aef-a69f-d6fb9cd0899e",
+        "createdAt": "2021-10-27T13:35:34.214Z",
+        "updatedAt": "2021-10-27T13:35:34.214Z",
+        "name": "Primary",
+        "value": {
+            "a": 1,
+            "b": 195,
+            "g": 66,
+            "r": 131
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "2:4",
+        "sourceId": "9fa35f5e-d003-401e-a76d-46f6ac41a42e",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "59a20d78-ff5d-42e0-a655-5093c96b057e",
+        "createdAt": "2021-10-27T13:35:34.210Z",
+        "updatedAt": "2021-10-27T13:35:34.210Z",
+        "name": "Secondary",
+        "value": {
+            "a": 1,
+            "b": 207,
+            "g": 70,
+            "r": 32
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "2:5",
+        "sourceId": "9fa35f5e-d003-401e-a76d-46f6ac41a42e",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "4064fb24-33c8-4800-beea-26d0d4789fee",
+        "createdAt": "2021-10-27T13:35:34.215Z",
+        "updatedAt": "2022-04-21T11:01:01.601Z",
+        "name": "Tertiary",
+        "value": {
+            "a": 1,
+            "b": 95,
+            "g": 32,
+            "r": 207
+        },
+        "meta": {
+            "source": "localStyles"
+        },
+        "type": "color",
+        "originId": "7:3",
+        "sourceId": "9fa35f5e-d003-401e-a76d-46f6ac41a42e",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "574fdfac-4844-4673-9c50-0d75fa7d0dc0",
+        "createdAt": "2021-11-17T11:01:07.750Z",
+        "updatedAt": "2022-05-31T11:01:05.123Z",
+        "name": "user-mask",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/99e7c8c9-30db-455e-b066-4bcf89ce29e2",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "user-mask",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "918:2-svg-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "3d118644-4bed-4e3f-a03b-5301d87ccb1d",
+        "createdAt": "2021-11-17T11:01:07.751Z",
+        "updatedAt": "2022-05-31T11:01:05.136Z",
+        "name": "user-mask",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/35110833-d62c-419f-b556-80e876994fe9",
+            "format": "pdf"
+        },
+        "meta": {
+            "file": "Specify - Seeds",
+            "page": "Seeds",
+            "frame": "user-mask",
+            "format": "pdf",
+            "dimension": 1,
+            "parentFrame": "Vector · Frame Example"
+        },
+        "type": "vector",
+        "originId": "918:2-pdf-1",
+        "sourceId": "23770fdd-ddb0-46da-9828-6dcb0d7afc68",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "bfc32e62-a670-42f3-ac64-ec5b740aa8b3",
+        "createdAt": "2021-10-28T15:37:30.802Z",
+        "updatedAt": "2022-05-31T11:01:05.053Z",
+        "name": "Vector",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/aeeb7483-c6f4-423d-a431-445ba02689a3",
+            "format": "pdf"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "Vector",
+            "format": "pdf",
+            "dimension": 1,
+            "parentFrame": "icons"
+        },
+        "type": "vector",
+        "originId": "2385:0-pdf-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "aa0755f2-d89e-407e-b694-c65c96f51b9c",
+        "createdAt": "2021-10-28T15:37:30.802Z",
+        "updatedAt": "2022-05-31T11:01:05.049Z",
+        "name": "Vector",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/23417077-3e08-48ad-965e-8c6435728f0a",
+            "format": "pdf"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "Vector",
+            "format": "pdf",
+            "dimension": 1,
+            "parentFrame": "icons"
+        },
+        "type": "vector",
+        "originId": "2382:1-pdf-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "15b8ce80-4d3c-432c-b92f-718a3a782e30",
+        "createdAt": "2021-10-28T15:37:30.803Z",
+        "updatedAt": "2022-05-31T11:01:05.049Z",
+        "name": "Vector",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0266897b-1296-45be-8704-5c8a48f7ef19",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "Vector",
+            "format": "svg",
+            "dimension": 1,
+            "parentFrame": "alert-circle 1/frite"
+        },
+        "type": "vector",
+        "originId": "37:4-svg-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "5efe17fd-7860-4caf-8ae8-314d3ca16b66",
+        "createdAt": "2021-11-23T09:41:59.967Z",
+        "updatedAt": "2022-05-31T11:01:05.146Z",
+        "name": "vectorWithVariants / Big / Active",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f64acf83-a494-4b35-abe8-f25943f33c3e",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "vectorWithVariants / Big / Active",
+            "format": "svg",
+            "dimension": 1,
+            "description": "",
+            "parentFrame": "vectorWithVariants"
+        },
+        "type": "vector",
+        "originId": "3582:3-svg-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "6fbebe76-4a02-4565-9e50-d32ea22a3f56",
+        "createdAt": "2021-11-23T09:41:59.967Z",
+        "updatedAt": "2022-05-31T11:01:05.136Z",
+        "name": "vectorWithVariants / Big / Disabled",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/19360880-4f3f-4e8c-add9-fe9f18c58dfd",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "vectorWithVariants / Big / Disabled",
+            "format": "svg",
+            "dimension": 1,
+            "description": "",
+            "parentFrame": "vectorWithVariants"
+        },
+        "type": "vector",
+        "originId": "3582:15-svg-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "ff706d77-ea99-41b7-95bc-ec77913c0e68",
+        "createdAt": "2021-11-23T09:41:59.969Z",
+        "updatedAt": "2022-05-31T11:01:05.145Z",
+        "name": "vectorWithVariants / Small / Active",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/aa6a57b8-cd36-4a3c-b942-2660fff31b50",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "vectorWithVariants / Small / Active",
+            "format": "svg",
+            "dimension": 1,
+            "description": "",
+            "parentFrame": "vectorWithVariants"
+        },
+        "type": "vector",
+        "originId": "3582:9-svg-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
+    },
+    {
+        "id": "0274fbc3-6574-46e9-91a2-6108e0182ecf",
+        "createdAt": "2021-11-23T09:41:59.966Z",
+        "updatedAt": "2022-05-31T11:01:05.143Z",
+        "name": "vectorWithVariants / Small / Disabled",
+        "value": {
+            "url": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d1eb8ebd-fc23-44cc-a157-6c875ca39186",
+            "format": "svg"
+        },
+        "meta": {
+            "file": "Test Design System",
+            "page": "Design System",
+            "frame": "vectorWithVariants / Small / Disabled",
+            "format": "svg",
+            "dimension": 1,
+            "description": "",
+            "parentFrame": "vectorWithVariants"
+        },
+        "type": "vector",
+        "originId": "3582:21-svg-1",
+        "sourceId": "90990718-dcfa-48e2-bf5a-30de611f7cb0",
+        "repositoryId": "0f1e404c-afde-47c8-a16e-d0de671d53ba"
     }
 ]
