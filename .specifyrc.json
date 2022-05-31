@@ -1,6 +1,6 @@
 {
   "repository": "@specifyapp/test",
-  "head": "set-up-specify",
+  "head": "specify",
   "base": "master",
   "rules": [
     {
