@@ -1,0 +1,11 @@
+{
+  "repository": "@specifyapp/test",
+  "head": "specify",
+  "base": "master",
+  "rules": [
+    {
+      "name": "Extract all tokens to JSON",
+      "path": "specify_output/all-tokens.json"
+    }
+  ]
+}
