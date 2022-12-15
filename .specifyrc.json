@@ -1,13 +1,14 @@
 {
-  "repository": "@specifyapp/test",
+  "repository": "@specifyapp/repository",
   "head": "specify",
   "base": "master",
   "rules": [
     {
-      "name": "Design Tokens / Theme",
-      "path": "./output/styles/theme.js",
+      "name": "Design Tokens / Generate theme",
+      "path": "./output/theme.ts",
       "filter": {
         "types": [
+          "vector",
           "color",
           "font",
           "textStyle"
@@ -15,70 +16,52 @@
       },
       "parsers": [
         {
-          "name": "sort-by",
+          "name": "to-react-native",
           "options": {
-            "keys": [
-              "name"
-            ]
-          }
-        },
-        {
-          "name": "px-to-rem",
-          "options": {
-            "keys": [
-              "fontSize"
-            ]
-          }
-        },
-        {
-          "name": "to-theme-ui",
-          "options": {
-            "variants": true,
-            "formatConfig": {
-              "exportDefault": true
-            },
-            "formatTokens": {
-              "colorFormat": {
-                "format": "hsl"
-              },
-              "fontSizeFormat": {
-                "type": "string",
-                "unit": "rem"
-              }
-            },
-            "presets": {
-              "fontWeights": {
-                "preset": "base",
-                "freeze": true
-              }
+            "colorFormat": "hex",
+            "assetsFolderPath": {
+              "vector": "assets/vector"
             }
           }
         }
       ]
     },
     {
-      "name": "Design Tokens / CSS font imports",
-      "path": "./output/styles/fonts.css",
+      "name": "Assets / Export vectors",
+      "path": "./output/assets/vectors",
       "filter": {
         "types": [
-          "font"
+          "vector"
         ]
       },
       "parsers": [
         {
-          "name": "to-css-font-import",
+          "name": "camelcasify"
+        },
+        {
+          "name": "svgo",
           "options": {
-            "formats": [
-              "woff2",
-              "woff"
-            ],
-            "fontsPath": "../assets/fonts"
+            "svgo": {
+              "js2svg": {
+                "pretty": true
+              },
+              "plugins": [
+                {
+                  "removeDimensions": true
+                },
+                {
+                  "convertColors": {
+                    "currentColor": true
+                  }
+                }
+              ]
+            }
           }
         }
       ]
     },
     {
-      "name": "Design Tokens / Export fonts",
+      "name": "Assets / Export fonts",
       "path": "./output/assets/fonts",
       "filter": {
         "types": [
@@ -93,60 +76,6 @@
               "woff2",
               "woff"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Icons",
-      "path": "./output/assets/icons",
-      "filter": {
-        "types": [
-          "vector"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "replace-string",
-          "options": {
-            "keys": [
-              "name"
-            ],
-            "regex": {
-              "pattern": "(.*?)\\/",
-              "flags": "g"
-            },
-            "trim": true
-          }
-        },
-        {
-          "name": "kebabcasify"
-        },
-        {
-          "name": "svgo",
-          "options": {
-            "svgo": {
-              "js2svg": {
-                "pretty": true
-              }
-            }
-          }
-        },
-        {
-          "name": "name-assets-files-by-pattern",
-          "options": {
-            "pattern": "{{name}}.jsx"
-          }
-        },
-        {
-          "name": "svg-to-jsx",
-          "options": {
-            "prepend": "import React from 'react';",
-            "variableFormat": "camelCase",
-            "wrapper": {
-              "tag": "div",
-              "className": "icon-{{name}} icon"
-            }
           }
         }
       ]
