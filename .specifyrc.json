@@ -4,78 +4,65 @@
   "base": "master",
   "rules": [
     {
-      "name": "Design Tokens / Colors",
-      "path": "./output/styles/colors.css",
+      "name": "Design Tokens / Generate theme",
+      "path": "./output/theme.ts",
       "filter": {
         "types": [
-          "color"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "sort-by",
-          "options": {
-            "keys": [
-              "name"
-            ]
-          }
-        },
-        {
-          "name": "to-css-custom-properties",
-          "options": {
-            "formatName": "kebabCase"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Design Tokens / Text Styles",
-      "path": "./output/styles/text-styles.css",
-      "filter": {
-        "types": [
+          "vector",
+          "color",
+          "font",
           "textStyle"
         ]
       },
       "parsers": [
         {
-          "name": "to-css-text-style",
+          "name": "to-react-native",
           "options": {
-            "exclude": [
-              "color",
-              "text-indent",
-              "vertical-align",
-              "text-align"
-            ],
-            "relativeLineHeight": true,
-            "genericFamily": "serif"
+            "colorFormat": "hex",
+            "assetsFolderPath": {
+              "vector": "assets/vector"
+            }
           }
         }
       ]
     },
     {
-      "name": "Design Tokens / Import font files in CSS",
-      "path": "./output/styles/fonts.css",
+      "name": "Assets / Export vectors",
+      "path": "./output/assets/vectors",
       "filter": {
         "types": [
-          "font"
+          "vector"
         ]
       },
       "parsers": [
         {
-          "name": "to-css-font-import",
+          "name": "camelcasify"
+        },
+        {
+          "name": "svgo",
           "options": {
-            "formats": [
-              "woff",
-              "woff2"
-            ],
-            "fontsPath": "../fonts"
+            "svgo": {
+              "js2svg": {
+                "pretty": true
+              },
+              "plugins": [
+                {
+                  "removeDimensions": true
+                },
+                {
+                  "convertColors": {
+                    "currentColor": true
+                  }
+                }
+              ]
+            }
           }
         }
       ]
     },
     {
-      "name": "Design Tokens / Import font files",
-      "path": "./output/fonts",
+      "name": "Assets / Export fonts",
+      "path": "./output/assets/fonts",
       "filter": {
         "types": [
           "font"
@@ -86,33 +73,9 @@
           "name": "convert-font",
           "options": {
             "formats": [
-              "woff",
-              "woff2"
+              "woff2",
+              "woff"
             ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Design Tokens / Vectors",
-      "path": "./output/vectors",
-      "filter": {
-        "types": [
-          "vector"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "kebabcasify"
-        },
-        {
-          "name": "svgo",
-          "options": {
-            "svgo": {
-              "js2svg": {
-                "pretty": true
-              }
-            }
           }
         }
       ]
