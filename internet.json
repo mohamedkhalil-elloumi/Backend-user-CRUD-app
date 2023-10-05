@@ -1,1 +1,13 @@
 
+{
+  "repository": "@specifyapp/sdtf",
+  "head": "internet-json",
+  "base": "master",
+  "rules": [
+    {
+      "name": "Extract all tokens to JSON",
+      "path": "./output/all-tokens.json",
+      "parsers": []
+    }
+  ]
+}
