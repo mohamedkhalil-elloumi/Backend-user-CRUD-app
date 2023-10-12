@@ -1,5 +1,5 @@
 {
-  "repository": "@specifyapp/repo-v2",
+  "repository": "@specifyapp/test-debug-v2",
   "head": "specifyrc-json",
   "base": "master",
   "version": "2",
