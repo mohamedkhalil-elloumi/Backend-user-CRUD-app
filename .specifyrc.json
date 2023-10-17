@@ -1,20 +1,12 @@
 {
-  "repository": "@specifyapp/test-debug-v2",
-  "head": "specifyrc-json",
+  "repository": "@specifyapp/test-debug-v1",
+  "head": "specify",
   "base": "master",
-  "version": "2",
   "rules": [
     {
-      "name": "SDTF",
-      "parsers": [
-        {
-          "name": "to-sdtf",
-          "output": {
-            "type": "file",
-            "filePath": "output/tokens.json"
-          }
-        }
-      ]
+      "name": "Extract all tokens to JSON",
+      "path": "./output/all-tokens.json",
+      "parsers": []
     }
   ]
 }
